@@ -1,11 +1,21 @@
 import re
+'''
+Following function will output the list of PIDs 
+with each having the dictionary of the info related to them
 
+output example:
+[{'0': {'COMMAND': 'kernel_task',
+   'CPU': '6.9',
+   'MEMORY': '275M',
+   'PPID': '0',
+   'STATE': 'running'}}
+   ]
+'''
 def parsing_top_output(top_cmd_output):
     top_dict = []
     pid_info_list = [] 
     with open(top_cmd_output) as f:
         data = f.read()
-#         print(data)
 
         patterns = [
         { 'regexp' : re.compile(
