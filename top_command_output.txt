@@ -1,0 +1,23 @@
+Processes: 422 total, 2 running, 420 sleeping, 2790 threads                                                                                        00:27:24
+Load Avg: 3.41, 2.62, 2.64  CPU usage: 3.33% user, 3.9% sys, 93.57% idle     SharedLibs: 150M resident, 37M data, 9816K linkedit.
+MemRegions: 254964 total, 1972M resident, 59M private, 495M shared. PhysMem: 7960M used (2328M wired), 231M unused.
+VM: 2216G vsize, 1995M framework vsize, 42873145(64) swapins, 45131743(0) swapouts. Networks: packets: 16438417/18G in, 6629603/1159M out.
+Disks: 11142699/306G read, 5816797/229G written.
+
+PID    COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS  PGRP  PPID  STATE    BOOSTS           %CPU_ME %CPU_OTHRS UID  FAULTS    COW
+34887  top          5.0  00:02.22 1/1   0    25    4836K  0B     0B     34887 1692  running  *0[1]            0.00000 0.00000    0    12551+    99
+1668   Code Helper  4.3  06:50.39 25    1    294   161M-  0B     42M-   1663  1663  sleeping *0[127]          0.00000 0.00000    501  2591217+  3177
+32251  python3.6    2.5  03:54.56 2     0    16    26M    0B     23M    32172 32172 sleeping *0[1]            0.00000 0.00000    501  21309     331
+0      kernel_task  1.9  03:24:54 233/4 0    0     470M   0B     0B     0     0     running   0[0]            0.00000 0.00000    0    1578449   0
+18428  Telegram     1.5  17:54.43 20    5    952   162M   0B     133M   18428 1     sleeping *0[5865]         0.00000 0.00000    501  7905085   908988
+491    WindowServer 1.5  04:43:51 10    4    2325  619M+  8320K- 207M-  491   1     sleeping *0[1]            0.05340 0.01117    88   35852201+ 102662
+1664   Code Helper  0.9  35:40.69 8     1    260   1640M- 5120K  127M   1663  1663  sleeping *0[3]            0.00000 0.00000    501  4735415+  10134
+877    PDF Expert   0.8  15:16.10 15    1    449   449M   0B     233M   877   1     sleeping  0[5174]         0.00000 0.00000    501  1639426   30251
+1663   Electron     0.7  23:08.93 53    2    913+  146M-  56K    62M-   1663  1     sleeping *0[21553]        0.00653 0.05340    501  5092771+  2196
+8701   Google Chrom 0.7  95:46.99 37    1    1285  454M   0B     256M   8701  1     sleeping *0[21418]        0.00000 0.00000    501  27721865+ 185666
+8706   Google Chrom 0.5  22:34.39 10    1    202   69M    0B     45M    8701  8701  sleeping *0[4]            0.00000 0.00000    501  2824138+  151206+
+30983  Google Chrom 0.5  02:53.85 17    2    374   180M   0B     106M   8701  8701  sleeping *0[5]            0.00000 0.00000    501  798647    3674
+1720   Code Helper  0.4  15:36.89 13    1    150   61M    0B     59M    1663  1663  sleeping *0[1]            0.00000 0.00000    501  170666    1321
+27085  Code Helper  0.4  04:07.44 13    1    145   32M    0B     31M    1663  1663  sleeping *0[1]            0.00000 0.00000    501  69674     1321
+1927   python3.7    0.3  03:37.62 3     0    20    68M    0B     56M    1663  1688  sleeping *0[1]            0.00000 0.00000    501  337516    2918
+19658  Google Chrom 0.2  09:02.35 19    1    710   579M   0B     236M   8701  8701  sleeping *0[7]            0.00000 0.00000    501  7144841+  50950
